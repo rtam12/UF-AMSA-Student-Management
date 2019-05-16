@@ -1,9 +1,8 @@
 {
-  "name": "Assignment4",
+  "name": "UF-AMSA Organizational Management App",
   "version": "1.0.0",
-  "description": "Routing server-side requests using ExpressJS",
   "main": "server.js",
-  "author": "Medhir Bhargava",
+  "author": "Regan Tam",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
