@@ -30,12 +30,13 @@ exports.update = function(req, res) {
     var student = req.student;
 
     /* Replace the article's properties with the new properties found in req.body */
-    student.name = req.body.name;
     student.id = req.body.id;
+    student.name = req.body.name;
+    student.email = req.body.email;
+    student.general = req.body.general;
+    student.fundraising = req.body.fundraising;
     student.medical = req.body.medical;
     student.social = req.body.social;
-    student.general = req.body.general;
-    student.email = req.body.email;
     student.committee = req.body.committee;
 
     /* Save the article */
