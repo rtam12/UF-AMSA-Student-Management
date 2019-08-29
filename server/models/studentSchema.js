@@ -10,7 +10,7 @@ var studentSchema = new Schema({
   	medical: {type: Number, 'default': 0},
   	social: {type: Number, 'default': 0},
     general: {type: Number, 'default': 0},
-    penalty: {type: Number, 'default': 0}
+    fundraising: {type: Number, 'default': 0}
   },
   email: {type: String, unique: true},
   committee: {type: String}
