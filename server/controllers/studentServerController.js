@@ -1,6 +1,6 @@
 /* Dependencies */
 var mongoose = require('mongoose'), 
-    Student = require('../models/StudentSchema.js');
+    Student = require('../models/studentSchema.js');
 
 /* Create a student */
 exports.create = function(req, res) {
